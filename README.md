@@ -1,4 +1,4 @@
-# Project-05
+# datafun-05-sql
   1.**Create** and **activate** the project virtual environment.  Start in GitHub and create a new repository.
   Add a README.md file.
  
