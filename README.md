@@ -1,4 +1,18 @@
 # datafun-05-sql
+
+##Project 05
+
+##Overview
+    Project 5 integrates Python and SQL, focusing on database interactions using SQLite. \n
+    This project introduces logging, a useful tool for debugging and monitoring projects, \n 
+    and involves creating and managing a database, building a schema, and performing various SQL operations, \n 
+    including queries with joins, filters, and aggregations.
+
+--Environment Setup
+    ## The project requires the following external modules, so a virtual environment is recommended.
+        ##pandas
+        ##pyarrow
+
   1.**Create** and **activate** the project virtual environment.  Start in GitHub and create a new repository.
   Add a README.md file.
  
@@ -20,9 +34,17 @@
   ```
 
   ## Install pandas
+  ## Install pyarrow
+
+  --Project Start
+    """In python file create a docstring with a brief introduction to you project"""
+
+  --Import Dependencies (At the top of the project, after the Introduction)  ## Install any external packages \n 
+  (those not in the Python Standard Library) into your active project with virtual environment first. 
 
   ```Powershell
   pip install pandas
+  pip install pyarrow
   ```
 
   ## Freeze requirements
@@ -57,6 +79,7 @@ git commit -m "add data folder"
 import sqlite3
 import pandas as pd
 import pathlib
+import pyarrow
 
 # Define the database file in the current root project directory
 db_file = pathlib.Path("project.sqlite3")
