@@ -3,6 +3,9 @@
 -- DROP tables in reverse order of creation 
 -- DROP dependent tables (with foreign keys) first
 
+
+
+
 DROP TABLE IF EXISTS books;
 DROP TABLE IF EXISTS authors;
 
